@@ -1,0 +1,57 @@
+nav{
+  margin-bottom: 5%;
+  background-color: blue;
+  color: white !important;
+  }
+  .navbar-brand{
+      color: white !important;
+  }
+  #button{
+      text-align: center;
+      margin-bottom: 2%;
+  }
+  .btn{
+      margin-top: 2%;
+      width: 50%;
+  }
+  #component-simple, #my-input{
+   display: block;
+  }
+  .MuiFormControl-root{
+    display: block !important;
+  }
+  label + .MuiInput-formControl {
+    width: 100% !important;
+    
+  }
+  .MuiInput-root {
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 1%;
+}
+  Button{
+    margin-top: 5% !important;
+    margin-bottom: 3% !important;
+    text-align: center !important;
+    width: 50%;
+  }
+  .MuiFormControl-root{
+    text-align: center;
+  }
+  #my-helper-text2{
+    font-size: 20px;
+    margin-top: 2%;
+  }
+  @media (max-width: 575.98px) { 
+
+      .btn{
+          margin-top: 2%;
+          width: 95%;
+      }
+  }
+  @media (min-width: 600px){
+    .MuiToolbar-regular {
+        min-height: 44px;
+    }
+  }
+  
